@@ -254,10 +254,8 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-`<div align="center">`Made with ❤️ by [Anandesh Sharma](https://github.com/Anandesh-Sharma)
+Made with ❤️ by [Anandesh Sharma](https://github.com/Anandesh-Sharma)
 
 ⭐️ Star this repo if you found it helpful!
 
 [⬆ Back to Top](#-modern-developer-portfolio)
-
-`</div>``</ReactProject>`Is there anything else you'd like me to add or modify in the README?
