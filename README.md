@@ -31,19 +31,20 @@ Welcome to the Modern Developer Portfolio! This project is a sleek, responsive, 
 Follow these steps to set up your portfolio:
 
 1. **Clone the repository**
-`git clone [https://github.com/Anandesh-Sharma/portfolio.git](https://github.com/Anandesh-Sharma/portfolio.git)`
-`cd modern-developer-portfolio`
+    ```bash
+    git clone https://github.com/Anandesh-Sharma/portfolio.git
+    cd modern-developer-portfolio`
+    ```
 
-2. **Install dependencies**
-`npm install`
+2. **Install dependencies**</br>
+    `npm install`
 
-3. **Set up environment variables**
-Create a `.env.local` file in the root directory:
-
-```NEXT_PUBLIC_SITE_URL=[http://localhost:3000](http://localhost:3000)```
+3. **Set up environment variables** </br>
+    Create a `.env.local` file in the root directory: </br>
+    ```NEXT_PUBLIC_SITE_URL=[http://localhost:3000](http://localhost:3000)```
 
 4. **Run the development server**
-```npm run dev```
+    ```npm run dev```
 
 5. **Open [http://localhost:3000](http://localhost:3000)** to see your portfolio!
 
