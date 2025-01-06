@@ -1,0 +1,54 @@
+---
+title: The Evolution of Python: Embracing Type Safety with mypy
+date: Apr 8, 2024
+readingTime: 6min read
+---
+
+# The Evolution of Python: Embracing Type Safety with mypy
+
+Python has long been known for its simplicity and readability, but as projects grow larger and more complex, the need for better type safety becomes apparent. Enter \`mypy\`, a static type checker that brings optional static typing to Python.
+
+## Why Type Safety Matters
+
+Type safety helps catch errors early in development, improves code maintainability, and provides better documentation. Here's a simple example:
+
+\`\`\`python
+def get_user_age(name: str) -> int:
+    # Implementation here
+    return 25
+
+# This will raise a type error
+age = get_user_age(123)  # Expected str, got int
+\`\`\`
+
+## Getting Started with mypy
+
+First, install mypy using pip:
+
+\`\`\`bash
+pip install mypy
+\`\`\`
+
+Then, add type hints to your Python code and run mypy:
+
+\`\`\`python
+from typing import List, Dict
+
+def process_users(users: List[Dict[str, str]]) -> int:
+    return len(users)
+
+# Run mypy
+# mypy your_file.py
+\`\`\`
+
+## Best Practices
+
+1. Start with critical code paths
+2. Use type aliases for complex types
+3. Leverage Python's built-in typing module
+4. Enable strict mode for maximum benefits
+
+## Conclusion
+
+Type safety with mypy brings the best of both worlds: Python's simplicity and the safety of static typing. Give it a try in your next project!
+

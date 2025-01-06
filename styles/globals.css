@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Hack:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 11%;
+    --foreground: 0 0% 100%;
+    --card: 0 0% 16%;
+    --card-foreground: 0 0% 100%;
+    --popover: 0 0% 16%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 16 100% 66%;
+    --primary-foreground: 0 0% 0%;
+    --secondary: 72 100% 50%;
+    --secondary-foreground: 0 0% 0%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 16 100% 66%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 16 100% 66%;
+
+    --framer-font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    --framer-font-family-bold: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-bold-italic: "Inter", "Inter Placeholder", sans-serif;
+    --framer-font-family-italic: "Inter", "Inter Placeholder", sans-serif;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--framer-font-family);
+  }
+
+  h1, h2, h3, h4, h5, h6, strong {
+    font-family: var(--framer-font-family-bold);
+  }
+
+  em {
+    font-family: var(--framer-font-family-italic);
+  }
+
+  strong em, em strong {
+    font-family: var(--framer-font-family-bold-italic);
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s linear infinite;
+  background-size: 200% 100%;
+  background-image: linear-gradient(
+    to right,
+    var(--primary) 0%,
+    var(--secondary) 50%,
+    var(--primary) 100%
+  );
+}
+
+@keyframes shimmer {
+  from {
+    background-position: 0%;
+  }
+  to {
+    background-position: 200%;
+  }
+}
+
+.section-heading {
+  font-size: 96px;
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-family: var(--framer-font-family-bold);
+}
+
+.section-heading-primary {
+  color: white;
+}
+
+.section-heading-secondary {
+  color: rgba(255, 255, 255, 0.2);
+  margin-top: -0.08em;
+}
+
+@media (max-width: 768px) {
+  .section-heading {
+    font-size: 38px;
+  }
+}
+
