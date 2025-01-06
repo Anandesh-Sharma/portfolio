@@ -46,7 +46,7 @@ Follow these steps to set up your portfolio:
 4. **Run the development server**
     ```npm run dev```
 
-5. **Open [http://localhost:3000](http://localhost:3000)** to see your portfolio!
+5. **Open http://localhost:3000** to see your portfolio!
 
 
 ## 🎨 Customization
