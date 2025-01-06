@@ -249,7 +249,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 - Report bugs via [GitHub Issues](https://github.com/Anandesh-Sharma/portfolio//issues)
 - Request features via [GitHub Discussions](https://github.com/Anandesh-Sharma/portfolio/discussions)
-- Email: [your.email@example.com](mailto:anandeshsharma@gmail.com)
+- Email: [anandeshsharma@gmail.com](mailto:anandeshsharma@gmail.com)
 
 
 ---
